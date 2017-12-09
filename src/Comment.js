@@ -1,11 +1,11 @@
 import React from 'react'
 
-export default function Comment({comment}) {
-
+function Comment({comment}) {
     return (
         <div>
-            <stong>{comment.user}</stong>
-            <div>{comment.text}</div>
+            <p>{comment.text} <b>by {comment.user}</b></p>
         </div>
     )
 }
+
+export default Comment
