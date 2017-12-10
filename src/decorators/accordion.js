@@ -1,6 +1,6 @@
-import React, {Component as ReactComponent} from 'react'
+import React from 'react'
 
-export default Component => class Accordion extends ReactComponent {
+export default Component => class Accordion extends React.Component {
     state = {
         openItemId: null
     }
@@ -14,4 +14,5 @@ export default Component => class Accordion extends ReactComponent {
             openItemId: openItemId === this.state.openItemId ? null : openItemId
         })
     }
+    
 }
