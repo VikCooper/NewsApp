@@ -9,10 +9,9 @@ class Filters extends Component {
     };
 
     render() {
-        console.log(this.props.articles)
         return (
             <div>
-                <SelectFilter articles = {this.props.articles} />
+                <SelectFilter />
                 <DateRange />
             </div>
         )
