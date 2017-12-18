@@ -5,7 +5,7 @@ import SelectFilter from './Select'
 
 class Filters extends Component {
     static propTypes = {
-        articles: PropTypes.array
+        
     };
 
     render() {
