@@ -2,6 +2,6 @@
 
 ## install
 ```
-1.npm install
-2.npm run
+1. npm install
+2. npm start
 ```
