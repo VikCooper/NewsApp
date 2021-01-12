@@ -1,7 +1,8 @@
 # News App
 
-## install
+## start
 ```
-1. npm install
-2. npm start
+npm install
+npm run build
+npm start
 ```
